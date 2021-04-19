@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.sabf-body {
+  color: #1F323F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.sabf-main-header {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sabf-main-nav {
+  background-color: #ffffff;
+}
+
+.sabf-main-nav ul {
+  padding: 0;
+  list-style: none;
+  margin: auto;
+  padding: 40px;
+  width: 72%;
+  text-align: center;
+}
+
+.sabf-main-nav li {
+  display: inline;
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.sabf-main-h1 {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 50px;
+  /* TODO: Add Sharp Sans Font to GTR fonts */
+}
+
+.sabf-blue-line {
+  width: 70px;
+  height: 2px;
+  background-color: #00A1D4;
+  margin: 15px auto;
+  margin-bottom: 60px;
+}
+
+.sabf-contact-us-main-section, .sabf-registration-button-section {
+  text-align: center;
+}
+
+.sabf-contact-us-main-content {
+  line-height: 1.6em;
+}
+
+/* Custom Link color */
+.sabf-light-blue-link {
+  color: #00A1D4;
+}
+
+/* .sabf-light-blue-link:hover {
+  color: #56B672;
+} */
+
+.sabf-primary-btn {
+  background-color: #00A1D4;
+  padding: 17px 60px;
+  border-radius: 28px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #00A1D4;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display:inline-block;
+  text-decoration: none;
+}
+
+.sabf-primary-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
+}
+
+.sabf-primary-btn:visited {
+  color: #fff;
+}
+
+
+
+.sabf-registration-primary-btn {
+  background-color: #00A1D4;
+  padding: 17px 190px;
+  border-radius: 28px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #00A1D4;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+.sabf-horizontal-gray-line {
+  background-color: #F0F2F2;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 40px;
+}
+
+.sabf-footer-section p {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 50px;
+  /* TODO: Fix bottom margin on contact us page */
+}
+
+.sabf-faq-main-section, .sabf-counselors-main-section,
+.sabf-registration-main-section {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sabf-faq-main-question-set {
+  margin-bottom: 40px;
+}
+
+.sabf-faq-main-question {
+  margin-bottom: 20px;
+}
+
+.sabf-counselors-lists {
+  padding-left: 20px;
+  line-height: 1.6em;
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sabf-counselors-partner-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 45px auto;
+}
+
+.sabf-body-text {
+  line-height: 1.5em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.counselor-section, .speaker-section {
+}
+
+.sabf-individual-counselor {
+  margin-bottom: 50px;
+}
+
+.sabf-counselor-image-title {
+  text-align: center;
+  float: left;
+  margin: 0px 40px 0px 0px;
+}
+
+.sabf-counselor-title-text {
+  margin-top: 20px;
+  line-height: 1.6em;
+}
+
+.sabf-counselor-bio {
+  display: table;
+  line-height: 1.5em;
+}
+
+.sabf-counselor-booklink {
+  display: block;
+}
+
+.sabf-registration-main-form {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sabf-registration-form  {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sabf-registration-p     { display: table-row;  }
+
+.sabf-registration-label {
+  display: table-cell;
+  width: 91px;
+}
+
+.sabf-registration-input {
+  display: table-cell;
+  width: 370px;
+  height: 40px;
+  margin-left: 20px;
+  border: 1px solid #CED4DA;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.sabf-registration-input:focus {
+  outline-color: #00A1D4;
+}
+
+.sabf-checkboxes {
+  width: 261px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/* Checkboxes */
+.container2 {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #F4F4F4;
+  border: 1px solid #CED4DA;
+  border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.container2:hover input ~ .checkmark2 {
+  background-color: #CED4DA;
+  border: 1px solid #CED4DA;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container2 input:checked ~ .checkmark2 {
+  background-color: #00A1D4;
+  border: 1px solid #00A1D4;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container2 input:checked ~ .checkmark2:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container2 .checkmark2:after {
+  left: 4px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.sabf-summary-details-section {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 300px;
+  padding-top: 30px;
+  background-color: #F0F2F2;
+  text-align: center;
+}
+
+.sabf-summary-group {
+  display: inline-flex;
+  margin-top: 50px;
+}
+
+.sabf-summary-icon-detail {
+  margin-bottom: 30px;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sabf-summary-detail-info {
+  line-height: 1.6em;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.sabf-about-webinar-section {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.sabf-hr {
+  width: 100%;
+  height: 1px;
+  background-color: #D1D6D9;
+}
+
+.sabf-credit-counseling-section {
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0px;
+  width: 100%;
+  max-height: 100%;
+  background-color: #F0F2F2;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.partners {
+  text-align: center;
+  display: inline-block;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.sabf-summary-partner-icon {
+    padding: 5px 30px 50px 30px;
+    vertical-align: middle;
+}
+
+.center-align {
+  margin-left: auto;
+  margin-right: auto;
+}
